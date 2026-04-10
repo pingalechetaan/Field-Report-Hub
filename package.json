@@ -1,14 +1,29 @@
 {
-  "dependencies": {
-    "@capacitor/core": "latest",
-    "@capacitor/android": "latest",
-    "@capacitor/cli": "latest"
-  },
+  "name": "field-report-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "cap:init": "capacitor init",
-    "cap:add:android": "capacitor add android",
-    "cap:sync": "capacitor sync",
-    "cap:open:android": "capacitor open android",
-    "cap:build": "capacitor build"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "cap:build": "npx cap build android"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/core": "latest",
+    "@supabase/supabase-js": "^2.39.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
   }
 }

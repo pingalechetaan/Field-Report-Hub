@@ -1,0 +1,30 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.draft {
+  background: var(--color-neutral-100);
+  color: var(--color-neutral-600);
+}
+
+.submitted {
+  background: var(--color-primary-100);
+  color: var(--color-primary-700);
+}
+
+.approved {
+  background: var(--color-success-100);
+  color: var(--color-success-700);
+}
+
+.rejected {
+  background: var(--color-error-100);
+  color: var(--color-error-600);
+}

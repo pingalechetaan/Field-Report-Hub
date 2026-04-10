@@ -1,1 +1,13 @@
-{\n  "appId": "com.fieldreporthub.app",\n  "appName": "Field Report Hub",\n  "webDir": "dist",\n  "plugins": {\n    "cordova-plugin-android-permissions": {\n      "androidPermissions": [\n        "WRITE_EXTERNAL_STORAGE",\n        "READ_EXTERNAL_STORAGE"\n      ]\n    }\n  }\n}
+{
+  "appId": "com.fieldreporthub.app",
+  "appName": "Field Report Hub",
+  "webDir": "dist",
+  "plugins": {
+    "cordova-plugin-android-permissions": {
+      "androidPermissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
